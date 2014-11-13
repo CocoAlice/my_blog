@@ -1,0 +1,66 @@
+body { background-image: url(BACKGROUND.png); background-repeat: repeat; }
+h1 {padding: 0px;}
+p {padding: 0px;}
+/*-----------This is for the heading-----------*/
+#heading {width: 1100px; height:90px; position: relative; left: 200px;  }
+#piclogo, #titlelogo, #menu {height: 90px; float: left;}
+/*-----------This is for the logo-----------*/
+#piclogo {width: 100px; padding-top: 20px;}
+#piclogo img{width:70px; height: 70px;}
+/*-----------This is for the title-----------*/
+#titlelogo {width: 300px;}
+#titlelogo h1{}
+#titlelogo span{font-size: 20px;vertical-align: text-top;}
+#titlelogo a:link   {color:black; text-decoration: none;}
+#titlelogo a:visited{color:black; text-decoration: none;}
+#titlelogo a:hover  {color:black; text-decoration:none;}
+#titlelogo a:active {color:black; text-decoration: none;}
+/*-----------This is for the menu-----------*/
+/*等定下具体有哪些按钮后我要换成图片，因为字体选择太少了，可以研究一下W3SCHOOL的MENU*/
+#menu {width: 700px; padding-top: 30px;}
+#menu ul{margin: 0; padding: 0; position: relative;}
+#menu li{width: 150px; height: 90px; font-size: 20px; margin:0; padding:0; list-style:none; float: left;}
+#menu li a:link   {color:grey; text-decoration: none;}
+#menu li a:visited{color:grey; text-decoration: none;}
+#menu li a:hover  {color:black; text-decoration: underline;}
+#menu li a:active {color:black; text-decoration: none;}
+/*-----------This is for the home page content: pics and buttons-----------*/
+#picbuttons {width: 1040px; height: 530px; position: relative; left: 140px;}
+#pic1, #pic2, #pic3, #pic4 {float:left; height: 500px; width: 260px; } 
+#picbuttons div#pic1 img{width:250px; height: 500px;}
+#picbuttons div#pic2 {padding-top: 100px;}
+#picbuttons div#pic2 img{width:250px; height: 400px;}
+#picbuttons div#pic3 img{width:250px; height: 400px;}
+#picbuttons div#pic4 img{width:250px; height: 500px;}
+#button1, #button2, #button3, #button4 {width: 150px; height: 70px; position: absolute; font-size: 30px; padding-top: 20px; }
+#button1 {padding-right: 10px; text-align: right; left: 200px; top: 30px; background-color: rgb(178, 197, 43);}
+#button2 {padding-right: 10px; text-align: right; right: 400px; bottom: 0px; background-color: rgb(120, 192, 155);}
+#button3 {padding-left: 10px; text-align: left; left: 400px; top: 30px; background-color: rgb(216, 133, 141);}
+#button4 {padding-left: 10px; text-align: left; right: 220px; bottom: 0px; background-color: rgb(163, 141, 188);}
+#picbuttons a:link   {color:white; text-decoration: none;}
+#picbuttons a:visited{color:white; text-decoration: none;}
+#picbuttons a:hover  {color:grey; text-decoration: none;}
+#picbuttons a:active {color:grey; text-decoration: none;}
+/*-----------This is for the Morning page content:blog & articles-------------*/
+#blog {position: relative; left: 140px; width: 1040px; height: 1040px; margin: 0px; background-image: url(MorningBackground.jpg); background-repeat: repeat-y; }
+#MorningDiary {width: 740px; height: 1040px; position: relative; left:0px; top: 0px;}
+#sidebar {width: 300px; height: 700px; position: relative; right: 0px; top: 0px;}
+.article {width: 620px; height: 300px; background-color: rgba(255, 255, 255, 0.5);margin: 0px 30px 30px 30px;}
+.artimg {float: left; height: 150px; width: 200px; padding-left: 10px; }
+.articletitle {float: left; height: 150px; width: 400px; padding-left: 10px;}
+.articleimg {width: 200px; height: 150px;}
+.artcontent {width: 600px; height: 150px; position: absolute; left: 35px; top: 150px;}
+#MorningDiary a:link   {color:black; text-decoration: none;}
+#MorningDiary a:visited{color:black; text-decoration: none;}
+#MorningDiary a:hover  {color:black; text-decoration: underline;}
+#MorningDiary a:active {color:black; text-decoration: none;}
+/*-----------This is for the footer-----------*/
+#footer {clear: both; width: 300px; height: 50px; position: absolute; left: 140px;}
+#contacticon, #email {float: left; height: 50px;}
+#contacticon {width: 100px;}
+#contacticon img{width: 40px; height: 40px;}
+#email {width: 200px; font-size: 20px; padding-top: 10px;}
+#email a:link   {color:grey; text-decoration: none;}
+#email a:visited{color:grey; text-decoration: none;}
+#email a:hover  {color:black; text-decoration: none;}
+#email a:active {color:black; text-decoration: none;}
