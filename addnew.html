@@ -37,25 +37,25 @@
     </div>
 <!--this is the main content of Morning page-->  
     <div id="blog">
-        <!--This is for the blog articles: Morning Diary, 需要设计PHP来添写BLOG-->
+        <!--This is for adding new blog for Morning Diary, 需要设计PHP和MYSQL或XML来添写BLOG-->
         <h1>
-            Customer Feedback
+            Add New Blog
         </h1>
         <p>
-            Please tell us what you think
+            Dear me, how are you today? What is on your mind? Please tell me, because you know I love you.
         </p>
         <form method='post' action='processfeedback.php'>
-        Your name:
+        Blog title
         <br/>
-        <input name='name' type='text' />
+        <input name='title' type='text' />
         <br/>
-        Your email address:
+        Tags
         <br/>
-        <input name='email' type='text' />
+        <input name='tag' type='text' />
         <br/>
-        Your feedback:
+        New Blog
         <br/>
-        <textarea name='feedback' rows='15' cols='40'>
+        <textarea name='newblog' rows='15' cols='40'>
         </textarea>
         <br/>
         <input type='submit' />
